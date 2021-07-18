@@ -12,15 +12,15 @@ app.get("/", function (req, res) {
 	res.sendFile(__dirname + "/signup.html");
 });
 mailchimp.setConfig({
-	apiKey: "c7619b1c86ed36462ec6ae4ef6e113fd-us6",
-	server: "us6"
+	apiKey: "RE_ADD API KEY",  // Removed for Github backup
+	server: "RE_ADD SERVER" // Removed for Github backup
 });
 // As soon as the Signup button is pressed, parse this data from browser and post to local server
 app.post("/", function (req,res) {
 	const firstName = req.body.firstName;
 	const lastName = req.body.lastName;
 	const email = req.body.email;
-	const listId = "f848367ac9";
+	const listId = "RE_ADD LIST ID"; // Removed for Github backup
 
 // Create a data object with the user's data
 	const subscriber = {
