@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 	res.sendFile(__dirname + "/signup.html");
 });
 mailchimp.setConfig({
-	apiKey: "67588bb0ca02e6a07b3f6d0c7e23077c-us6",
+	apiKey: "c7619b1c86ed36462ec6ae4ef6e113fd-us6",
 	server: "us6"
 });
 // As soon as the Signup button is pressed, parse this data from browser and post to local server
